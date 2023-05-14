@@ -1,0 +1,134 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: #1F4482;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Heading{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    width: 562px;
+    height: 90px;
+    margin-bottom: 0px;
+    
+}
+
+.Success{
+    color: #E9EE00;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 30px;
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-right: 40px;
+}
+
+.Logo{
+   position: absolute;
+   margin-right: 5px;
+   margin-left: 68%;
+   /* padding: 30px; */
+   border-radius: 25px;
+   margin-top: 95px;
+  box-shadow: 5px 5px 25px white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+#Email{
+    width: 250px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 4px solid #FFFFFF;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+#Button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.DSA{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-top: 10px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+
+}
+
+.spam{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+/* or 32px */
+    color: #FFFFFF;
+
+    border-top: 1px solid white;
+
+}
+
+
+.bottom_left{
+  margin-right: 30px;
+  margin-left: -25px;
+}
+
+.bottom_right{
+   margin-left: 30px;
+   text-align: right;
+}
+
+
+li{
+    list-style-type: none;
+    font-size: 15px;
+}
